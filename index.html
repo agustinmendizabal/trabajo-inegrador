@@ -3,54 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Metaadvice</title>
 </head>
 <body>
     <header>
+      <img class="Logo" src="./img/Screenshot 2024-06-22 121317.png" alt="Logo" >
       <nav>
                 <ul>
-                    <li><a href="categoria_electronica.html">Electrónica</a></li>
-                    <section>
-                
-                        <div class="product-list">
-                            <a href="categoria_electronica.html">
-                            <img src="categoria_electronica.html" >
-                            </a>
-                            <img src="./img/electron.jpeg">
-                        </div>
-                    </section>
-                    <li><a href="categoria_accesorios.html">Accesorios</a></li>
-                    <section>
+                    <li><a href="categoria.html?categoria=electronics">Electrónica</a></li>
+    
+                    <li><a href="categoria.html?categoria=jewelery">Accesorios</a></li>
+
+            
+                    <li><a href="categoria.html?categoria=men's clothing">Ropa de Hombre</a></li>
                     
-                        <div class="product-list">
-                        <a href="categoria_accesorios.html">
-                        <img src="./img/acc.jpg" >
-                            </a>
-                        
-                        </div>
-                    </section>
-            
-                    <li><a href="categoria_hombre.html">Ropa de Hombre</a></li>
-                    <section>
-                  
-                        <div class="product-list">
-                        <a href="categoria_hombre.html">
-                        <img src="categoria_hombre.html" >
-                            </a>
-                        <img src="./img/Marcas_de_ropa_de_hombre.jpg">            </div>
-                    </section>
-            
-                    <li><a href="categoria_mujer.html">Ropa de Mujer</a></li>
-                    <section>
-                        
-                        <div class="product-list">
-                        <a href="categoria_mujer.html">
-                        <img src="categoria_mujer.html" >
-                                </a>
-                            <img src="./img/mujer ropa.jpg">            </div>
-                        </div>
-                    </section>
+                    <li><a href="categoria.html?categoria=women's clothing">Ropa de Mujer</a></li>
+                    
                     <li><a href="carrito.html">Carrito</a></li>
                     <li><a href="login.html">Login</a></li>
                     <li><a href="registro.html">Registro</a></li>
@@ -59,13 +28,26 @@
         </div>
     </header>
     <main>
-  
+
+  <section class="accesorios1">
+    <h2>Accesorios</h2>
+    <div id="accesorios">    </div>
+  </section>
+  <section class="accesorios1">
+    <h2>Electronica</h2>
+    <div id="electronica">    </div>
+  </section>
+  <section class="accesorios1">
+    <h2>Ropa hombres</h2>
+    <div id="men">    </div>
+  </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>Desarrollado por: Agustin Mendizabal</p>
+            <p>Desarrollado por: Agustin Mendizabal e Ivan Pereira Aragon</p>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
