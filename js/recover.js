@@ -9,7 +9,7 @@ let linkLogin = document.querySelector('.linkLogin');
 
 emailRecuperar.addEventListener ('input', function(){
      if (emailRecuperar.value == '') {
-        emailRecuperarErr.innerText = 'Por favor escriba su mail';
+        emailRecuperarErr.innerText = 'Por favor escribi tu mail';
      } else {
         emailRecuperarErr.innerText = '';
      }
@@ -28,10 +28,10 @@ checkBoxRecuperar.addEventListener ('input', function(){
 formulario.addEventListener('submit', function(e){
     e.preventDefault();
     if (emailRecuperar.value !== '' && checkBoxRecuperar.checked) {
-        respuestaFinal.innerText = 'Recibirás un email con las instrucciones para recuperar tu contraseña';
+        respuestaFinal.innerText = 'Te llegara un mail con las instrucciones para recuperar tu contraseña';
         linkLogin.style.display = 'block';
     } else {
-        respuestaFinal.innerText = 'Debes completar los campos anteriores';
+        respuestaFinal.innerText = 'Los campos anteriores son obligatorios';
         linkLogin.style.display = 'none';
     }
 })
