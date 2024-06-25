@@ -1,4 +1,5 @@
 body {
+    background-color: antiquewhite;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -43,10 +44,12 @@ footer {
     text-align: center;
 }
 main {
+    background-color: antiquewhite;
     padding: 20px;
 }
 
 section {
+    background-color: antiquewhite;
     margin-bottom: 40px;
 }
 
@@ -87,14 +90,14 @@ section {
 
 
 .producto{
+    background-color: #7f7f7f;
     display: flex;
     border: 2px solid black;
     margin: 1%;
     padding: 1%;
     width: 20%;
-    background-color: white;
     flex-direction: column;
-    
+
 }
 
 .mensaje{
@@ -113,5 +116,3 @@ section {
 .registro{
     display: flex;
 }
-
-

@@ -16,7 +16,7 @@ fetch(`https://fakestoreapi.com/products/${id}`)
             <p>${data.title}</p>
             <p class= "precio">${data.price}</p>
             <p class= "precio">${data.description}</p>
-            <a href="categoria.html?categoria=${data.category}">${data.category}</a>
+            <a href="category.html?categoria=${data.category}">${data.category}</a>
             <button>Agregar al carrito</button>
         </div>
                 `
